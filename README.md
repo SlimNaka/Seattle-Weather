@@ -9,6 +9,7 @@ The data sets seattle_rain.csv and ny_rain.csv can be accessed from the weather 
 You can also consult the data documentation: https://www.ncei.noaa.gov/pub/data/cdo/documentation/GHCND_documentation.pdf.
 
 Data prep:
+
 I deleted all columns EXCEPT station number, name, precipitation, and date and changed the latter column's type to datetime.
 
 I then took the average amount of rainfall per day for both cities and joined the dataframes, keeping date and precipitation.
