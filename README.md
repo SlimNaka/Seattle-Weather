@@ -1,4 +1,5 @@
-#Seattle vs. NYC: Who Has More Rain?
+#
+Seattle vs. NYC: Who Has More Rain?
 
 ##Authors:
 Sean Nakagomi, instructed by Dr. Galen Egan
