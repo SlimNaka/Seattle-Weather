@@ -19,3 +19,14 @@ I then tidied the newly joined dataframe, by "melting" to include columns "DATE"
 I then renamed the entries in the "CITY" column to be "NYC" or "SEA" and made all columns to be lowercase.
 
 Clean data: clean_seattle_nyc_weather.csv
+
+
+Data analysis: Seattle_NYC_Analysis
+
+Used the 5 number summary of each city to see which city had the most rainfall in our 4-year time period.
+
+Created a graph of both cities to see the number of inches of rain each city received over time.
+
+Looked at how many times each city received the following: 0 inches, greater than 0.5 inches, greater than 1 inch, and between 0.01 and 0.25 inches.
+
+Created two histograms, one focusing on non-zero precipitation values and one focusing solely on non-zero precipitation values.
