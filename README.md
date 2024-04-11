@@ -1,22 +1,21 @@
-#
-Seattle vs. NYC: Who Has More Rain?
+# Seattle vs. NYC: Who Has More Rain?
 
-##Authors:
+## Authors:
 Sean Nakagomi, instructed by Dr. Galen Egan
 
-##Requirements:
+## Requirements:
 This project was created using Python via Google Colab.
 
-##Introduction:
+## Introduction:
 The purpose of this project is to hopefully prove to my friend who lives in Queens, NYC that Seattle is not as rainy as popularly believed, and that it is comparable to NYC, perhaps even raining less than the Big Apple.
 
-##Data:
+## Data:
 We will use daily precipitation measured in Seattle and New York from January 1, 2020 to January 1, 2024.
 The data sets were downloaded from the National Centers for Environmental Information Online search tool: https://www.ncei.noaa.gov/cdo-web/search?datasetid=GHCND.
 The data sets seattle_rain.csv and ny_rain.csv can be accessed from the weather folderLinks in the DATA 3320 Github repository: https://github.com/galenegan/DATA-3320/tree/main/weather.
 You can also consult the data documentation: https://www.ncei.noaa.gov/pub/data/cdo/documentation/GHCND_documentation.pdf.
 
-##Data prep: Seattle_Weather.ipynb
+## Data prep: Seattle_Weather.ipynb
 
 I deleted all columns EXCEPT station number, name, precipitation, and date and changed the latter column's type to datetime.
 
@@ -26,10 +25,10 @@ I then tidied the newly joined dataframe, by "melting" to include columns "DATE"
 
 I then renamed the entries in the "CITY" column to be "NYC" or "SEA" and made all columns to be lowercase.
 
-Clean data: clean_seattle_nyc_weather.csv
+## Clean data: clean_seattle_nyc_weather.csv
 
 
-##Data analysis: Seattle_NYC_Analysis
+## Data analysis: Seattle_NYC_Analysis
 
 Used the 5 number summary of each city to see which city had the most rainfall in our 4-year time period.
 
@@ -39,7 +38,7 @@ Looked at how many times each city received the following: 0 inches, greater tha
 
 Created two histograms, one focusing on non-zero precipitation values and one focusing solely on non-zero precipitation values.
 
-##Licence:
+## Licence:
 MIT License
 
 Copyright (c) 2024 Sean Nakagomi
