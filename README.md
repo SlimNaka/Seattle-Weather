@@ -25,7 +25,7 @@ I then tidied the newly joined dataframe, by "melting" to include columns "DATE"
 
 I then renamed the entries in the "CITY" column to be "NYC" or "SEA" and made all columns to be lowercase.
 
-## Clean data: clean_seattle_nyc_weather.csv
+* Clean data: clean_seattle_nyc_weather.csv *
 
 
 ## Data analysis: Seattle_NYC_Analysis
